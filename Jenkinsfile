@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 pipeline {
   environment {
     registry = "onepuchman/smartapp"
@@ -40,3 +41,18 @@ pipeline {
     }
   }
 }
+=======
+pipeline{
+        agent { any}
+        environment{
+        NAME = "Vincent"
+}
+stages{
+        stage ("Coucou") {
+            steps{
+                    echo "Coucou ${env. NAME}"
+                ｝
+        ｝}
+    }
+｝
+>>>>>>> Stashed changes
